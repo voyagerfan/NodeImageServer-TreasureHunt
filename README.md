@@ -2,12 +2,11 @@
 
 ## Table of Contents
 
-- [Treasure-Hunt](#treasure-hunt)
-    - [Overview](#overview)
-    - [Server File Structure](#server-file-structure)
-    - [Features](#features)
-    - [Technologies Used](#technologies-used)
-    - [Installation and Operation](#installation-and-operation)
+- [Overview](#overview)
+- [Server File Structure](#server-file-structure)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation and Operation](#installation-and-operation)
 
 
 ## Overview
@@ -48,8 +47,8 @@ With you desired IDE:
 
 To Receive an image:
 * Open a browser and add `localhost:9000/image/{desireImage.jpg}` where `desireImage.jpg` is the image you'd like.
-* >[!NOTE]
-  > The image must exist in `~/src/ImageRepo/imageFiles` in order for the image to be returned
+>[!NOTE]
+> The image must exist in `~/src/ImageRepo/imageFiles` in order for the image to be returned
 
 > [!IMPORTANT]
 > This server is a work in progress with plans to add several images for the TreasureHunt app. As the project grows, images may be moved elsewhere.
