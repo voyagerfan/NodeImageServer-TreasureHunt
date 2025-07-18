@@ -3,12 +3,13 @@ import { promises as fs } from 'fs';
 import { loadImageMap, masterImageMap } from './imageRepo/imageMap'
 
 const app = express();
+const host = 'localhost';
 const port = 9000;
 
 loadImageMap();
 
 app.get('/', (_, res: Response) => {
-  res.send('Hello from the server!');
+  res.send('Hello from the TreasureHunt Image server!');
 });
 
 app.get('/images', async (req: Request, res: Response) => {
@@ -36,6 +37,6 @@ app.get('/images', async (req: Request, res: Response) => {
 });
        
 
-app.listen(port, () => {
+app.listen(port, host, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
