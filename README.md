@@ -4,7 +4,7 @@
 
 - [Treasure-Hunt](#treasure-hunt)
     - [Overview](#overview)
-    - [App File Structure](#app-file-structure)
+    - [Server File Structure](#server-file-structure)
     - [Features](#features)
     - [Technologies Used](#technologies-used)
     - [Installation and Operation](#installation-and-operation)
@@ -16,7 +16,7 @@ This program is designed to serve images for the [TreasureHunt App](https://gith
 >[!NOTE]
 > All TypesScript files are compiled to Javascript and live in '~/dist' - this folder is included in `.gitignore` but will be available once compiled [see Installation and Operation](#installation-and-operation). 
 
-## App File Structure
+## Server File Structure
 The following is a brief overview of the file structure
 
 [~/src/index.ts](https://github.com/voyagerfan/NodeImageServer-TreasureHunt/blob/main/src/index.ts) - The main entry point to the server. It is very minimal and points to server.ts for the bulk for the logic.
