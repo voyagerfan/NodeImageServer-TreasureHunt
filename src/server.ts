@@ -3,7 +3,7 @@ import { promises as fs } from 'fs';
 import { loadImageMap, masterImageMap } from './imageRepo/imageMap'
 
 const app = express();
-const host = 'localhost';
+const host = '0.0.0.0';
 const port = 9000;
 
 loadImageMap();
@@ -38,5 +38,5 @@ app.get('/images', async (req: Request, res: Response) => {
        
 
 app.listen(port, host, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server is running on http://${host}:${port}`);
 });

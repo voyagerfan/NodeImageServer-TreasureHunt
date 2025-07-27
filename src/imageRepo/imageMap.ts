@@ -19,7 +19,7 @@ function loadImageMap() {
     allImageFiles.forEach(dirent => {
         const fileType = path.extname(dirent.name).toLowerCase()
         if(dirent.isFile() && (fileType === '.bmp' || fileType === '.jpg' || fileType === '.jpeg' )) {
-            masterImageMap.set(dirent.name, path.join(basePath, dirent.name))
+            masterImageMap.set(dirent.name.toLowerCase(), path.join(basePath, dirent.name))
         }
     });
 
