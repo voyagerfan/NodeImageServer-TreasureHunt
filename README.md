@@ -43,10 +43,10 @@ With you desired IDE:
 * Open your IDE, then open the location you cloned the files to.
 * Open a terminal within the IDE. Alternatively, you may open a terminal and navigate to the root directory of the cloned project.
 * At the terminal prompt, enter `npm run build` - this will compile TypeScript files to JavaScript
-* When then terminal prompt returns, enter `npm run start`
+* When then terminal prompt returns, enter `npm start`
 
 To Receive an image:
-* Open a browser and add `localhost:9000/image/{desireImage.jpg}` where `desireImage.jpg` is the image you'd like.
+* Open a browser and add `0.0.0.0:9000/image/{desireImage.jpg}` where `desireImage.jpg` is the image you'd like.
 >[!NOTE]
 > The image must exist in `~/src/ImageRepo/imageFiles` in order for the image to be returned
 
